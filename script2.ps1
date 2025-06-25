@@ -2,7 +2,7 @@
 $FILE_ID = "1zgUpe7Y0cHHuYN3zdciuw9YFi0ltY0su"
 
 # Ruta de destino del ZIP
-$DEST = "$HOME\Desktop\PC2.zip"
+$DEST = "$HOME\Desktop\PC.zip"
 
 # URL de descarga directa
 $URL = "https://drive.google.com/uc?export=download&id=$FILE_ID"
