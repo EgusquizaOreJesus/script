@@ -1,5 +1,5 @@
 # ID del archivo en Google Drive
-$FILE_ID = "1zgUpe7Y0cHHuYN3zdciuw9YFi0ltY0su"
+$FILE_ID = "12hF73fncNh4BkoeCI2Rt_RaIGxYWPNF_"
 
 # Ruta de destino del ZIP
 $DEST = "$HOME\Desktop\PC.zip"
