@@ -1,8 +1,8 @@
 # ID del archivo en Google Drive
-$FILE_ID = "1zgUpe7Y0cHHuYN3zdciuw9YFi0ltY0su"
+$FILE_ID = "12hF73fncNh4BkoeCI2Rt_RaIGxYWPNF_"
 
 # Ruta de destino del ZIP
-$DEST = "$HOME\Desktop\PC2.zip"
+$DEST = "$HOME\Desktop\PC.zip"
 
 # URL de descarga directa
 $URL = "https://drive.google.com/uc?export=download&id=$FILE_ID"
@@ -11,7 +11,7 @@ Write-Host "Descargando archivo..."
 Invoke-WebRequest -Uri $URL -OutFile $DEST
 
 Write-Host "Extrayendo..."
-Expand-Archive -Path $DEST -DestinationPath "$HOME\Desktop\PC2" -Force
+Expand-Archive -Path $DEST -DestinationPath "$HOME\Desktop\PC" -Force
 
 Write-Host "Eliminando el archivo zip..."
 Remove-Item $DEST
